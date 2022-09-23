@@ -1,0 +1,117 @@
+.cashback {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1900px;
+    padding-right: 115px;
+    background-color: #F0EFF5;
+}
+.cashback-cont {
+    padding-left: 38px;
+    word-break: break-word;
+}
+.cashback-cont span {
+    font-size: 25px;
+    color: #989CA5;
+    font-weight: bold;
+    display: flex;
+    padding-bottom: 32px;
+}
+.cashback-cont h2 {
+    font-size: 32px;
+    word-wrap: break-word;
+    display: flex;
+    padding-bottom: 8px;
+    letter-spacing: 1px;
+    line-height: 54px;
+}
+.cashback-cont p {
+    font-size: 20px;
+    color: #989CA5;
+    padding-bottom: 32px;
+}
+.btn-cashback {
+    padding: 18px 100px;
+    width: 150px;
+    background-color: #FF7900;
+    color: white;
+    border-radius: 4px;
+}
+@media (min-width: 1900px) {
+    .cashback {
+        max-width: 100%;
+        padding-right: 200px;
+    }
+    .cashback-cont h2 {
+        font-size: 46px;
+        padding-bottom: 38px;
+    }
+    .cashback-cont p {
+        font-size: 28px;
+        padding-bottom: 28px;
+    }
+}
+@media (max-width: 1220px) {
+    .cashback {
+        padding: 0px;
+    }
+    .cashback-cont span {
+        font-size: 20px;
+        padding-bottom: 18px;
+    }
+    .cashback-cont h2 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .cashback-cont p {
+        font-size: 16px;
+        word-wrap: initial;
+    }
+    .btn-cashback {
+        padding: 12px 30px;
+    }
+}
+@media (max-width: 950px) {
+    .cashback {
+        display: block;
+        grid-template-columns: 1fr;
+    }
+    .img-cashback {
+        width: 100vh;
+    }
+}
+@media (max-width: 800px) {
+    .img-cashback {
+        display: none;
+    }
+    .cashback {
+        background-image: url('./img/inter-shop-sm.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: initial;
+        padding-bottom: 75px;
+    }
+    .cashback-cont span, h2 {
+        color: white;
+    }
+    .cashback-cont span {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 4px;
+    }
+    .cashback-cont h2 {
+        font-size: 18px;
+        line-height: normal;
+        padding-bottom: 12px;
+    }
+    .cashback-cont p {
+        color: white;
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        font-weight: normal;
+    }
+    .btn-cashback {
+        width: 100%;
+    }
+}

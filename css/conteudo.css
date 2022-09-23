@@ -1,0 +1,126 @@
+.introducao-bg {
+    background-image: url('./img/fgts-desktop-lg-04f23bf69e63cd5c19b8aaceaf5aad2c.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 150px);
+}
+/*
+.mexerFgts {
+    display: block;
+    text-align: start;
+    box-sizing: border-box;
+    float: right;
+    padding-top: 240px;
+    padding-left: 160px;
+}
+*/
+.mexerFgts {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    text-align: start;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    padding-right: 240px;
+    padding-top: 240px;
+    
+}
+.mexerFgts h3 {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+.mexerFgts h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+.mexerFgts p {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 35px;
+    word-wrap:break-word;
+}
+.btn-antecipar {
+    padding: 20px 80px;
+    width: 100px;
+    color: #F89943;
+    background: white;
+}
+/*
+@media (min-width: 1600px) {
+    .mexerFgts {
+        max-width: 1200px;
+    }
+}*/
+@media (max-width: 1600px) {
+    .mexerFgts {
+        padding-right: 100px;
+    }
+
+
+@media (max-width: 950px) {
+    .introducao-bg {
+        background-position: inherit;
+    } /*
+    .mexerFgts {
+        justify-content: end;
+        padding-right: 0px;
+    } */
+    .mexerFgts h3 {
+        font-size: 20px;
+    }
+    .mexerFgts h2 {
+        font-size: 28px;
+    }
+    .mexerFgts p {
+        font-size: 14px;
+    }
+    .btn-antecipar {
+        padding: 10px 40px;
+        width: 50px;
+    }
+}
+@media (max-width: 600px){
+    .introducao-bg {
+        background-image: url('./img/fgts-mobile-af6744d7eca2dfdcefdbf86f37332dd3.png');
+        background-size: cover;
+        background-position: center center;
+    }/*
+    .mexerFgts {
+        display: block;
+        padding: 0px;
+        padding-top: 280px;
+        gap: 20px;
+        margin: 15px;
+        float: initial;
+        text-align: start;
+        align-items: center;
+    } */
+    .btn-antecipar {
+        background: #F89943;
+        color: white;
+    }
+}
+@media (max-width: 380px){
+    .mexerFgts {
+     padding-top: 250px;   
+    }
+    .mexerFgts h3 {
+        font-size: 17px;
+    }
+    .mexerFgts h2 {
+        font-size: 22px;
+    }
+    .mexerFgts p {
+        font-size: 12px;
+    }
+    .btn-antecipar{
+        padding: 8px 25px;
+        width: 30px;
+    }
+}
+}

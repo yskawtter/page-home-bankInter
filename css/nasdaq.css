@@ -1,0 +1,75 @@
+.inter-nasdaq {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.inter-nasdaq-cont {
+    padding-left: 120px;
+    display: block;
+    max-width: 1200px;
+}
+.inter-nasdaq-cont h3 {
+    font-size: 42px;
+    color: #352523;
+    font-weight: 400;
+}
+
+.inter-nasdaq-cont h3 span {
+    color: #F89943;
+    font-weight: 700;
+} 
+.inter-nasdaq-cont h2 {
+    padding-top: 28px;
+    font-size: 52px;
+}
+.inter-nasdaq-cont p {
+    padding-top: 32px;
+    padding-bottom: 40px;
+    color: #989CA5;
+    font-size: 20px;
+}
+.btn-bidi {
+    padding: 18px 50px;
+    width: 75px;
+    background-color: #FF7900;
+    color: white;
+    border-radius: 4px
+} /*PAREI AQUI, FALTA SEMANTICA E RESPONSIVIDADE E AJEITAR O SPACEBETWEEN*/
+
+
+@media(min-width: 1800px) {
+    .inter-nasdaq-cont{
+    max-width: 1200px;
+    padding-left: 220px;
+    box-sizing: border-box;
+    margin-right: auto;
+ }
+}
+
+@media (max-width: 800px) {
+    .inter-nasdaq {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        padding-left: 20px;
+        padding-bottom: 70px;
+    }
+    .imgBIDI {
+        padding-top: 32px;
+        padding-bottom: 17px;
+        order: 1;
+    }
+    .inter-nasdaq-cont {
+        padding: 0px;
+        order:2 ;
+    }
+    .inter-nasdaq-cont h2 {
+        padding: 0px;
+        color: black;
+        font-size: 36px;
+    }
+}

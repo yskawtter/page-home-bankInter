@@ -1,0 +1,75 @@
+.totalcashback {
+    display: block;
+    background-color: #F87D0A;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.totalcashback h3 {
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+.totalcashback h2 {
+    color: white;
+    font-size: 70px;
+    padding-bottom: 14px;
+}
+.totalcashback h2 span {
+    color: #F89943;
+    font-weight: 600;
+}
+.totalcashback p {
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 42px;
+}
+.ganharcashback-btn {
+    padding: 10px 50px;
+    width: 100px;
+    color: #F87D0A;
+    background-color: white;
+    border-radius: 4px;
+}
+.ganharcashback-btn.seta::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url("../img/seta.svg");
+}
+@media (max-width: 800px) {
+    .totalcashback h3 {
+        font-size: 20px;
+    }
+    .totalcashback h2 {
+        font-size: 45px;
+    }
+    .totalcashback p {
+        font-size: 14px;
+    }
+    .ganharcashback-btn {
+        padding: 7px 25px;
+        width: 50px;
+    }
+}
+@media (max-width: 400px) {
+    .totalcashback h3 {
+        font-size: 16px;
+    }
+    .totalcashback h2 {
+        font-size: 30px;
+    }
+    .totalcashback p {
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .ganharcashback-btn {
+        padding: 5px 20px;
+        width: 40px;
+    }
+}

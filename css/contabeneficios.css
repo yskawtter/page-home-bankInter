@@ -1,0 +1,534 @@
+
+.contas-beneficios {
+    display: block;
+    gap: 32px;
+    padding-top: 75px;
+     /*max-width: 1800px;
+
+    padding-left: 120px; */
+}
+/* CONTA PARA CRIANÇA */
+.conta-kids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 220px;
+    gap: 32px;
+}
+
+.conta-kid-cont  {
+    display: flex;
+    justify-content: space-around;
+}
+.spanInterBank{
+    color: #989CA5;
+    font-size: 32px;
+}
+.orange {
+    color: #FF7900;
+    font-weight: 600;
+    
+}
+.conta-kids p {
+    color: #989CA5;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 24px;
+    padding-bottom: 85px;
+}
+
+.conta-kids h2{
+    font-size: 42px;
+    padding-top: 32px;
+} 
+
+@media (max-width: 1000px) {
+    .contas-beneficios {
+        gap: 12px;
+        padding-top: 50px;
+    }
+    .conta-kids {
+        grid-template-columns: 1fr;
+        padding-left: 0;
+        word-wrap: break-word;
+        padding: 35px;
+        border-radius: 2px;
+        background-color: rgb(244, 244, 244);
+
+    }
+    .conta-kids-img {
+        gap: 32px;
+    }
+    .spanInterBank {
+        font-size: 20px;
+    }
+    .conta-kids h2{
+        font-size: 28px;
+        padding-top: 16px;
+    }
+    .conta-kids p {
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+}
+@media (max-width: 800px) {
+    .conta-kids {
+        margin: 32px;
+    }
+    .conta-kids h2 {
+        color: black;
+    }
+}
+
+
+/* INTER INVEST*/
+.conta-invest{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 1600px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 220px;
+    gap: 32px;
+} 
+.conta-invest-cont {
+    display: block;
+} 
+.conta-invest-img {
+    padding-left: 220px;
+}
+.conta-invest-cont span{
+    color: #989CA5;
+    font-size: 32px;
+} 
+.conta-invest-cont p {
+    color: #989CA5;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 24px;
+    padding-bottom: 85px;
+}
+
+.conta-invest-cont h2{
+    font-size: 42px;
+    padding-top: 32px;
+}
+
+.comeceinvestir-btn {
+    padding: 18px 50px;
+    width: 75px;
+    background-color: #FF7900;
+    color: white;
+    border-radius: 4px;
+}
+@media (max-width: 1500px) {
+    .conta-invest {
+        gap: 35px;
+        padding-left: 50px;
+    }
+    .conta-invest-img  {
+        padding: 50px;
+    }
+}
+@media (max-width: 1000px) {
+    .conta-invest {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .conta-invest-img {
+        order: 1;
+    }
+    .conta-invest-cont {
+        order: 2;
+    }
+    .conta-invest-cont span {
+        font-size: 20px;
+    }
+    .conta-invest h2{
+        font-size: 28px;
+        padding-top: 16px;
+    }
+    .conta-invest p {
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 24px;
+    }
+    .comeceinvestir-btn {
+        padding: 10px 25px;
+        width: 35px;
+    }
+}
+@media (max-width: 800px) {
+    .conta-invest {
+        margin: 32px;
+    }
+    .conta-invest h2 {
+        color: black;
+    }
+}
+@media (max-width: 400px) {
+    .conta-invest-img {
+        width: 75%;
+    }
+}
+
+
+
+/*CONTA EMPRESA*/
+
+.conta-enterprise{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 220px;
+    gap: 32px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.conta-enterprise-cont {
+    display: block;
+}
+.conta-enterprise-img {
+    padding-left: 220px;
+}
+.conta-enterprise-cont span{
+    color: #989CA5;
+    font-size: 32px;
+}
+.conta-enterprise-cont p {
+    color: #989CA5;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 24px;
+    padding-bottom: 85px;
+}
+
+.conta-enterprise-cont h2{
+    font-size: 42px;
+    padding-top: 32px;
+}
+.botaocadconta {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.conhecercontapj-btn {
+    padding: 15px 100px;
+    width: 250px;
+    background-color: #FF7900;
+    border: 1px solid white;
+    color: white;
+    border-radius: 12px;
+}
+.conhecercontamei-btn {
+    padding: 15px 100px;
+    width: 250px;
+    background-color: white;
+    color: #FF7900;
+    border: 2px solid #FF7900;
+    border-radius: 12px;
+}
+
+@media (max-width: 1500px) {
+    .conta-enterprise {
+        gap: 35px;
+        padding-left: 50px;
+    }
+    .conta-enterprise  {
+        padding: 50px;
+    }
+    .conta-enterprise-img {
+        padding-left: 12px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .conta-enterprise {
+        display: flex;
+        flex-direction: column;
+        padding-left: 75px;
+        padding: 35px;
+        border-radius: 2px;
+        background-color: rgb(244, 244, 244);
+    }
+    .conta-enterprise-img {
+        order: 1;
+        width: 100%;
+    }
+    .conta-enterprise-cont {
+        order: 2;
+    }
+    .conta-enterprise-cont span {
+        font-size: 20px;
+    }
+    .conta-enterprise h2{
+        font-size: 28px;
+        padding-top: 16px;
+    }
+    .conta-enterprise p {
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 24px;
+    }
+    .conhecercontamei-btn, .conhecercontapj-btn   {
+        padding: 15px 70px;
+    }
+}
+
+@media (max-width: 800px) {
+    .conta-enterprise {
+        margin: 32px;
+    }
+    .conta-enterprise h2 {
+        color: black;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .conta-enterprise img {
+        width: 95%;
+    }
+    .conhecercontamei-btn, .conhecercontapj-btn   {
+        padding: 10px 25px;
+        text-align: center;
+    }
+    .conta-enterprise-img {
+        padding-top: 50px;
+    }
+}  
+
+
+
+/*INTER SEGUROS*/
+.conta-seguros-bg {
+    background-color: #352523;
+    width: 100%;
+    padding: 0px;
+}
+.conta-seguros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.conta-seguros-img {
+   padding-top: 52px;
+   padding-bottom: 52px;
+}
+.conta-seguros-cont {
+    padding: 15px;
+}
+.conta-seguros-cont span {
+    color: #F87D0A;
+    font-size: 22px;
+    font-weight: 400;
+}
+.conta-seguros-cont h2 {
+    color: #F0EFF5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+.conta-seguros-cont p {
+    color: #989CA5;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 24px;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+.conhecerinterseguros-btn {
+    padding: 15px 100px;
+    width: 250px;
+    background-color: transparent;
+    border: 1px solid #FF7900;
+    color: #FF7900;
+    border-radius: 12px;
+    transition: .3s;
+}
+.conhecerinterseguros-btn:hover {
+    padding: 15px 100px;
+    width: 250px;
+    background-color: white;
+    color: #FF7900;
+    border: 2px solid #FF7900;
+    border-radius: 12px;
+} 
+
+
+@media (max-width: 1000px) {
+    .conta-seguros {
+        display: flex;
+        flex-direction: column;
+    }
+    .conta-seguros-img {
+        order: 1;
+        width: 100%;
+    }
+    .conta-seguros-cont {
+        order: 2;
+    }
+    .conta-seguros-cont span {
+        font-size: 20px;
+    }
+    .conta-seguros h2{
+        font-size: 28px;
+        padding-top: 16px;
+    }
+    .conta-seguros p {
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 24px;
+    }
+    .conhecerinterseguros-btn {
+        padding: 15px 25px;
+        width: 15px;
+    }
+
+    @media (max-width: 800px) {
+        .conta-seguros {
+            margin: 32px;
+        }
+        .conta-seguros h2 {
+            color: #F0EFF5;
+        }
+    
+    }
+    
+    @media (max-width: 400px) {
+        .conta-seguros img {
+            width: 95%;
+        }
+        .conhecerinterseguros-btn  {
+            padding: 5px 25px;
+            width: 25px;
+            text-align: center;
+        }
+        .conta-seguros-img {
+            padding-top: 50px;
+        }
+        .conhecerinterseguros-btn {
+            padding: 5px 14px;
+            width: 25px;
+        }
+    }  
+}
+/*CONTA EMPRESTIMO*/
+.conta-emprestimos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 220px;
+    gap: 72px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.conta-emprestimos-cont {
+    display: block;
+}
+.conta-emprestimo-img {
+    padding-left: 220px;
+}
+.conta-emprestimos-cont span{
+    color: #989CA5;
+    font-size: 32px;
+}
+.conta-emprestimos-cont p {
+    color: #989CA5;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 24px;
+    padding-bottom: 85px;
+}
+
+.conta-emprestimos-cont h2{
+    font-size: 42px;
+    padding-top: 32px;
+}
+
+.conhecercredito-btn{
+    padding: 18px 50px;
+    width: 75px;
+    background-color: #FF7900;
+    color: white;
+    border-radius: 4px;
+}
+@media (max-width: 1500px) {
+    .conta-emprestimos {
+        gap: 35px;
+        padding-left: 50px;
+    }
+    .conta-emprestimos-img  {
+        padding: 50px;
+    }
+}
+@media (max-width: 1000px) {
+    .conta-emprestimos {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .conta-emprestimos-img {
+        order: 1;
+    }
+    .conta-emprestimos-cont {
+        order: 2;
+    }
+    .conta-emprestimos-cont span {
+        font-size: 20px;
+    }
+    .conta-emprestimos h2{
+        font-size: 28px;
+        padding-top: 16px;
+    }
+    .conta-emprestimos p {
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 24px;
+    }
+    .conhecercredito-btn {
+        padding: 10px 25px;
+        width: 35px;
+    }
+}
+@media (max-width: 800px) {
+    .conta-emprestimos {
+        margin: 32px;
+    }
+    .conta-emprestimos h2 {
+        color: black;
+    }
+}
+@media (max-width: 400px) {
+    .conta-emprestimo-img {
+        width: 100%;
+    }
+    .conhecercredito-btn {
+        padding: 5px 14px;
+        width: 25px;
+    }
+}

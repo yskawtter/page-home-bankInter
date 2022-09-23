@@ -1,0 +1,111 @@
+.vantagens-inter {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 20px;
+}
+.serinter {
+    display: block;
+    padding: 32px;
+}
+.serinter h2 {
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    word-wrap: break-word;
+    padding-bottom: 14px;
+}
+.serinter p {
+    color: #989CA5;
+    font-size: 18px;
+    padding-bottom: 32px;
+}
+.btn-serinter {
+    padding: 18px 50px;
+    width: 75px;
+    background-color: #FF7900;
+    color: white;
+    border-radius: 4px;
+}
+
+/*vantagens direita*/
+.seritem-vantagens {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px; /*modifiqueiaq*/
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+} 
+.seritem-vantagens li {
+    flex: 1;
+    min-width: 75px;
+} 
+.seritem-vantagens ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-left: 25px;
+    text-align: center;
+    max-width: 100%;
+}
+.seritem-vantagens li img {
+    text-align: center;
+    padding: 32px;
+}
+.seritem-vantagens ul li {
+    align-items: center;
+    max-width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    background-color: #F0EFF5;
+    padding: 32px;
+    gap: 32px;
+}
+.seritem-vantagens ul li img {
+    display: flex;
+    padding-bottom: 40px;
+}
+@media(max-width: 1800px) {
+    .seritem-vantagens li img {
+        text-align: center;
+        padding: 20px 50px 20px 20px;
+    }
+}
+@media (max-width: 1000px) {
+    .vantagens-inter {
+        display: block;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .serinter h2 {
+        font-size: 22px;
+        padding: 0px;
+    }
+    .seritem-vantagens {
+        padding-bottom: 60px;
+        flex: auto;
+        columns: -1/1;
+    }
+    .seritem-vantagens ul {
+        gap: 20px;
+    }
+    .serinter h2 {
+        color: black;
+        padding-bottom: 20px;
+    }
+    .btn-serinter{
+        padding: 10px 25px;
+        width: 35px;
+        font-size: 14px;
+    }
+}
