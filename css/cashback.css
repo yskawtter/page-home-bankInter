@@ -86,7 +86,7 @@
         display: none;
     }
     .cashback {
-        background-image: url('./img/inter-shop-sm.jpg');
+        background-image: url('../img/inter-shop-sm.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: initial;

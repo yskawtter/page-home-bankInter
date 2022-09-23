@@ -1,5 +1,5 @@
 .beneficions-conta {
-    background-image: url('./img/bg-section-beneficios-tablet.png');
+    background-image: url('../img/bg-section-beneficios-tablet.png');
     background-color: #ff7a00;
     width: 100%;
     height: 45vh;
@@ -62,7 +62,7 @@
 }
 @media (max-width: 1000px) {
     .beneficions-conta {
-        background-image: url('/img/bg-section-beneficios-pq.png');
+        background-image: url('../img/bg-section-beneficios-pq.png');
         background-color: #ff7a00;
         height: 25vh;
     }
@@ -74,7 +74,7 @@
 @media (max-width: 768px){
     .beneficions-conta {
         background: none;
-        background-image: url('/img/bg-section-beneficios-mobile.png');
+        background-image: url('../img/bg-section-beneficios-mobile.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
