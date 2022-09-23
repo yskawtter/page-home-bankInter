@@ -1,5 +1,5 @@
 .introducao-bg {
-    background-image: url('./img/fgts-desktop-lg-04f23bf69e63cd5c19b8aaceaf5aad2c.png');
+    background-image: url('../img/fgts-desktop-lg-04f23bf69e63cd5c19b8aaceaf5aad2c.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -86,7 +86,7 @@
 }
 @media (max-width: 600px){
     .introducao-bg {
-        background-image: url('./img/fgts-mobile-af6744d7eca2dfdcefdbf86f37332dd3.png');
+        background-image: url('../img/fgts-mobile-af6744d7eca2dfdcefdbf86f37332dd3.png');
         background-size: cover;
         background-position: center center;
     }/*
